@@ -1,0 +1,230 @@
+{
+    "war": [
+        {
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "vitality-member-theme",
+            "version": "0.1.111",
+            "packaging": "war",
+            "config": ""
+        },
+        {   
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "vmp-custom-theme",
+            "version": "0.1.9",
+            "packaging": "war",
+            "config": ""
+        }
+    ],
+    "modules": [
+        {
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.model.api",
+            "version": "0.4.18",
+            "packaging": "jar",
+            "config": ""
+        },
+        {
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.user.service.api",
+            "version": "0.3.57",
+            "packaging": "jar",
+            "config": ""
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.user.login",
+            "version": "0.1.120",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.user.login.portlet.UserLoginConfiguration.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.common.util",
+            "version": "0.3.15",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.agreement.utility.api.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.health.attribute.feedback.api",
+            "version": "0.1.6",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.health.attribute.feedback.config.HealthAttributeFeedbackService.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.screening.prevention.web",
+            "version": "0.1.21",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.screeningprevention.portlet.ScreeningPreventionConfiguration.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.health.results.web",
+            "version": "0.1.34",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.health.attribute.feedback.config.HealthAttributeFeedbackService.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.screening.prevention.points.web",
+            "version": "0.1.4",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.screeningprevention.portlet.ScreeningPreventionPointsConfiguration.config"
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.profilesettings",
+            "version": "0.1.113",
+            "packaging": "jar",
+            "config": "ProfileAndSettingsConfig.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.manage.health.attributes.api",
+            "version": "0.1.5",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.manage.health.attributes.config.ManageHealthAttributesService.config"
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.vhcmainpage.portlet",
+            "version": "0.1.14",
+            "packaging": "jar",
+            "config": "VMPHealthCheckMainConfig.config" 
+        },
+        {  
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.vmp.dashboard.web",
+            "version": "0.1.86",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.vmp.dashboard.configuration.VMPDashboardWebContentConfigurations.config"
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.manage.party.information.api",
+            "version": "0.1.5",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.manage.party.information.config.ManagePartyInformationService.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.party.party.information.services.api",
+            "version": "0.1.5",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.party.party.information.config.PartyPartyInformationService.config"
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.claim.points.web",
+            "version": "0.1.13",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.claim.points.config.ClaimPointsConfig.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.vhc.points",
+            "version": "0.1.121",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.vhc.configuration.VhcClaimPointsWebContentConfigurations.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.logo.web",
+            "version": "0.1.6",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.logo.portlet.VitalityLogoConfiguration.config"
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.oisix.partner",
+            "version": "0.1.49",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.oisix.partner.web.config.OisixPartnerWebConfigurations.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.points.overview",
+            "version": "0.1.92",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.points.overview.configurations.PointsOverviewConfigurations.config" 
+        },
+        {
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.faq",
+            "version": "0.1.11",
+            "packaging": "jar",
+            "config": ""
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.softbankpartner",
+            "version": "0.1.25",
+            "packaging": "jar",
+            "config": "SoftbankPartnerConfig.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.wellness.devices",
+            "version": "0.1.46",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.wellnessdevices.configuration.WellnessDevicesWebContentConfigurations.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.kyh.overview",
+            "version": "0.1.25",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.kyh.overview.config.KnowYourHealthOverviewConfiguration.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.points.status",
+            "version": "0.1.55",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.points.status.configuration.PointsStatusWebContentConfiguration.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.vhr.content",
+            "version": "0.2.3",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.vhr.configuration.VhrWebContentConfigurations.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.vhr.content",
+            "version": "0.2.3",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.vhr.configuration.VhrWebContentConfigurations.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.reach.highest.status",
+            "version": "0.2.3",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.reach.highest.status.config.ReachHighestStatusConfig.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.reach.highest.status",
+            "version": "0.2.3",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.reach.highest.status.config.ReachHighestStatusConfig.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.renaissance.partner",
+            "version": "0.1.26",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.renaissance.partner.config.RenaissancePartnerConfiguration.config" 
+        },
+        { 
+            "groupId": "za.co.vitality.portal.members",
+            "artifact": "za.co.vitality.portal.members.konami.partner",
+            "version": "0.1.23",
+            "packaging": "jar",
+            "config": "za.co.vitality.portal.members.konami.partner.config.KonamiPartnerConfiguration.config" 
+        }
+    ]
+}
